@@ -60,5 +60,9 @@ TESTS = {
             "input": ['copyrightable', 'o', 'o'],
             "answer": False
         },
+        {
+            "input": ['cool', 'o', 'o'],
+            "answer": False
+        },
     ]
 }
