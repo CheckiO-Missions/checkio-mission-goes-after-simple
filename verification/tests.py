@@ -60,5 +60,9 @@ TESTS = {
             "input": ['copyrightable', 'o', 'o'],
             "answer": False,
         },
+        {
+            "input": ['stetson', 's', 'o'], #the code I wrote returned this as false because it only checked the first s, yet passed the mission
+            "answer": True,
+        },
     ]
 }
